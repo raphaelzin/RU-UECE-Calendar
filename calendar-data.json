@@ -1,0 +1,58 @@
+{
+    "meses": {
+        "Agosto": {
+            "11": "Dia do Estudante",
+            "14": "Início do Período Letivo",
+            "15": "- N.S. da Assunção – Feriado municipal de Fortaleza",
+            "30": "Feriado municipal de limoeiro do norte",
+            "31": "Feriado municipal de Itapipoca",
+            "16-18": "Semana da Integração",
+            "28/8-10/9": "Solicitação para ingresso de Graduado, Transferência e Mudança de Curso (INTERNET)"
+        },
+        "Setembro": {
+            "7": "Independência do Brasil – Feriado Nacional",
+            "26": "II Fórum de Educação Superior da Região dos Inhamuns",
+            "11-15 ": "Solicitação de Aproveitamento de Estudos (DEG)",
+            "11-15": "Solicitação de Atividades Complementares para concludentes 2017.1 (Protocolo geral)",
+            "25-29": "Solicitação de Readmissão após Abandono de Curso (Internet)",
+            "27-29": "I Encontro de Bolsista PRAE da Região dos Inhamuns e Semana de Educação do CECITEC"
+        },
+        "Outubro": {
+            "12": "N. S. Aparecida – Feriado nacional",
+            "15": "Dia do Professor",
+            "27": "Feriado Municipal de Quixadá",
+            "5-7": "8ª Jornada de nutriçāo e saúde",
+            "16-20": "Trancamento parcial de disciplinas (Internet)",
+            "23-27": "Semana universitária"
+        },
+        "Novembro": {
+            "2": "Dia dos finados - Feriado nacional",
+            "15": "Proclamação da república - Feriado nacional"
+        },
+        "Dezembro": {
+            "22": "Término do período letivo",
+            "23/12-1/1" : "Recesso escolar"
+        },
+        "Janeiro": {
+            "9-10": "Matrícula alunos veteranos",
+            "19": "Colação de Grau CCS/FAVET",
+            "23-24": "Ajuste de Matrícula",
+            "26": "Colação de Grau CCT "
+        },
+        "Fevereiro": {
+            "2": "Colação de Grau CH",
+            "5": "- Início do Período Letivo",
+            "7-9": "Matrícula Alunos Veteranos ( 3ª Fase ) Coordenação do Curso",
+            "9": "Colação de Grau CESA/CED",
+            "23": "Colação de Grau FACEDI"
+        },
+        "Março": {
+            "1": "Colação de Grau CECITEC",
+            "2": "Colação de Grau FAEC",
+            "9": "Colação de Grau FAFIDAM",
+            "15": "Colação de Grau FECLI",
+            "16": "Colação de Grau FECLESC",
+            "23": "Colação de Grau ESPECIAL"
+        }
+    }
+}
