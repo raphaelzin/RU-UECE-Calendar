@@ -11,19 +11,19 @@
                     "14": "Início do Período Letivo"
                 },
                 {
-                    "15": "- N.S. da Assunção – Feriado municipal de Fortaleza"
-                },
-                {
-                    "30": "Feriado municipal de limoeiro do norte"
-                },
-                {
-                    "31": "Feriado municipal de Itapipoca"
+                    "15": "N.S. da Assunção – Feriado municipal de Fortaleza"
                 },
                 {
                     "16-18": "Semana da Integração"
                 },
                 {
                     "28/8-10/9": "Solicitação para ingresso de Graduado, Transferência e Mudança de Curso (INTERNET)"
+                },
+                {
+                    "30": "Feriado municipal de limoeiro do norte"
+                },
+                {
+                    "31": "Feriado municipal de Itapipoca"
                 }
             ]
         }
@@ -35,9 +35,6 @@
                     "7": "Independência do Brasil – Feriado Nacional"
                 },
                 {
-                    "26": "II Fórum de Educação Superior da Região dos Inhamuns"
-                },
-                {
                     "11-15 ": "Solicitação de Aproveitamento de Estudos (DEG)"
                 },
                 {
@@ -45,6 +42,9 @@
                 },
                 {
                     "25-29": "Solicitação de Readmissão após Abandono de Curso (Internet)"
+                },
+                {
+                    "26": "II Fórum de Educação Superior da Região dos Inhamuns"
                 },
                 {
                     "27-29": "I Encontro de Bolsista PRAE da Região dos Inhamuns e Semana de Educação do CECITEC"
@@ -57,22 +57,22 @@
       "Outubro": {
             "events":[
                 {
+                    "5-7": "8ª Jornada de nutriçāo e saúde"
+                },
+                {
                     "12": "N. S. Aparecida – Feriado nacional"
                 },
                 {
                     "15": "Dia do Professor"
                 },
                 {
-                    "27": "Feriado Municipal de Quixadá"
-                },
-                {
-                    "5-7": "8ª Jornada de nutriçāo e saúde"
-                },
-                {
                     "16-20": "Trancamento parcial de disciplinas (Internet)"
                 },
                 {
                     "23-27": "Semana universitária"
+                },
+                {
+                    "27": "Feriado Municipal de Quixadá"
                 }
             ]
         }
