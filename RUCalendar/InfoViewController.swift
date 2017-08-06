@@ -13,6 +13,7 @@ class InfoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
+        title = "Informações"
     }
 
     override func didReceiveMemoryWarning() {

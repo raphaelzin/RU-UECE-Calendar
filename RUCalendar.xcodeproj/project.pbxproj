@@ -15,6 +15,8 @@
 		1C7CE4391F26C88600B94AFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C7CE4381F26C88600B94AFD /* Assets.xcassets */; };
 		1C7CE43C1F26C88600B94AFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C7CE43A1F26C88600B94AFD /* LaunchScreen.storyboard */; };
 		1CCD8C0A1F296C7000666E2B /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCD8C091F296C7000666E2B /* Parser.swift */; };
+		1CF8E18B1F366F4400678600 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF8E18A1F366F4400678600 /* CalendarViewController.swift */; };
+		1CF8E18D1F37B60900678600 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF8E18C1F37B60900678600 /* EventTableViewCell.swift */; };
 		FCCCB985A862819FAE46A25F /* Pods_RUCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA953A4540137662447B5900 /* Pods_RUCalendar.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +31,8 @@
 		1C7CE43B1F26C88600B94AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C7CE43D1F26C88600B94AFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CCD8C091F296C7000666E2B /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		1CF8E18A1F366F4400678600 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		1CF8E18C1F37B60900678600 /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
 		AA953A4540137662447B5900 /* Pods_RUCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RUCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB3AB34F804E0509676FB376 /* Pods-RUCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RUCalendar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RUCalendar/Pods-RUCalendar.debug.xcconfig"; sourceTree = "<group>"; };
 		CE369D08D64E92D9A9FDCED6 /* Pods-RUCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RUCalendar.release.xcconfig"; path = "Pods/Target Support Files/Pods-RUCalendar/Pods-RUCalendar.release.xcconfig"; sourceTree = "<group>"; };
@@ -73,6 +77,8 @@
 				1CCD8C091F296C7000666E2B /* Parser.swift */,
 				1C15189C1F2C019300B74C82 /* Utils.swift */,
 				1C7CE4351F26C88600B94AFD /* Main.storyboard */,
+				1CF8E18C1F37B60900678600 /* EventTableViewCell.swift */,
+				1CF8E18A1F366F4400678600 /* CalendarViewController.swift */,
 				1C7CE4381F26C88600B94AFD /* Assets.xcassets */,
 				1C7CE43A1F26C88600B94AFD /* LaunchScreen.storyboard */,
 				1C7CE43D1F26C88600B94AFD /* Info.plist */,
@@ -221,9 +227,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CF8E18B1F366F4400678600 /* CalendarViewController.swift in Sources */,
 				1C15189D1F2C019300B74C82 /* Utils.swift in Sources */,
 				1C7CE4341F26C88600B94AFD /* ViewController.swift in Sources */,
 				1C7CE4321F26C88600B94AFD /* AppDelegate.swift in Sources */,
+				1CF8E18D1F37B60900678600 /* EventTableViewCell.swift in Sources */,
 				1C1518991F2C00DB00B74C82 /* InfoViewController.swift in Sources */,
 				1CCD8C0A1F296C7000666E2B /* Parser.swift in Sources */,
 			);

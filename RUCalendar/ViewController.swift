@@ -36,6 +36,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
+        navigationController?.navigationBar.tintColor = .white
+        navigationController?.navigationBar.barTintColor = Utils.dark
+        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+        navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+        
         title = "Cardápio UECE"
         weekdays = [monday, tuesday,
                          wednesday, thursday, friday]
