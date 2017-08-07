@@ -247,6 +247,54 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SFT-7O-oZZ">
+                                <rect key="frame" x="40" y="220" width="240" height="128"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=":(" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s0u-C6-EB6">
+                                        <rect key="frame" x="110" y="13" width="20" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="Ksn-ug-Phc"/>
+                                            <constraint firstAttribute="height" constant="35" id="NX5-6O-6CB"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sem internet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="htF-Of-4v3">
+                                        <rect key="frame" x="8" y="56" width="224" height="16"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="16" id="5Kj-3P-mIp"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BAq-Qe-fpf">
+                                        <rect key="frame" x="8" y="80" width="224" height="17"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="17" id="DBf-El-9PT"/>
+                                        </constraints>
+                                        <state key="normal" title="Tentar novamente"/>
+                                        <connections>
+                                            <action selector="refreshConnection:" destination="gzf-6h-9V7" eventType="touchUpInside" id="GnF-xl-JKU"/>
+                                            <action selector="tryToConnect:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OTP-fu-h7h"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="3kR-Yx-93J"/>
+                                    <constraint firstItem="s0u-C6-EB6" firstAttribute="centerX" secondItem="SFT-7O-oZZ" secondAttribute="centerX" id="EXi-hg-Cbp"/>
+                                    <constraint firstAttribute="trailing" secondItem="htF-Of-4v3" secondAttribute="trailing" constant="8" id="Gf5-gi-4sq"/>
+                                    <constraint firstAttribute="height" constant="128" id="L36-ZH-WCz"/>
+                                    <constraint firstItem="htF-Of-4v3" firstAttribute="leading" secondItem="SFT-7O-oZZ" secondAttribute="leading" constant="8" id="QLC-J1-e6N"/>
+                                    <constraint firstItem="htF-Of-4v3" firstAttribute="centerX" secondItem="SFT-7O-oZZ" secondAttribute="centerX" id="QNk-el-Bla"/>
+                                    <constraint firstItem="BAq-Qe-fpf" firstAttribute="top" secondItem="htF-Of-4v3" secondAttribute="bottom" constant="8" id="Zs2-VC-TRT"/>
+                                    <constraint firstItem="htF-Of-4v3" firstAttribute="centerY" secondItem="SFT-7O-oZZ" secondAttribute="centerY" id="abH-YM-URe"/>
+                                    <constraint firstItem="BAq-Qe-fpf" firstAttribute="leading" secondItem="SFT-7O-oZZ" secondAttribute="leading" constant="8" id="dRj-5c-eEo"/>
+                                    <constraint firstAttribute="trailing" secondItem="BAq-Qe-fpf" secondAttribute="trailing" constant="8" id="me4-rL-Aaf"/>
+                                    <constraint firstItem="htF-Of-4v3" firstAttribute="top" secondItem="s0u-C6-EB6" secondAttribute="bottom" constant="8" id="tUL-7r-i3S"/>
+                                </constraints>
+                            </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="70" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Vt4-Jd-gVX">
                                 <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -303,14 +351,17 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="SFT-7O-oZZ" firstAttribute="centerY" secondItem="XVJ-KE-2P9" secondAttribute="centerY" id="0SJ-0b-gcC"/>
+                            <constraint firstItem="Vt4-Jd-gVX" firstAttribute="top" secondItem="SrN-Kd-AtF" secondAttribute="bottom" id="GYn-vF-EKL"/>
+                            <constraint firstItem="SFT-7O-oZZ" firstAttribute="centerX" secondItem="XVJ-KE-2P9" secondAttribute="centerX" id="MQ4-ff-2Is"/>
+                            <constraint firstItem="LOy-6r-Y1P" firstAttribute="top" secondItem="Vt4-Jd-gVX" secondAttribute="bottom" id="P5X-Cm-Kp9"/>
                             <constraint firstItem="Vt4-Jd-gVX" firstAttribute="leading" secondItem="XVJ-KE-2P9" secondAttribute="leading" id="RsW-xY-6cb"/>
-                            <constraint firstItem="Vt4-Jd-gVX" firstAttribute="top" secondItem="SrN-Kd-AtF" secondAttribute="bottom" id="SB0-e5-Tyr"/>
                             <constraint firstAttribute="trailing" secondItem="Vt4-Jd-gVX" secondAttribute="trailing" id="a8t-re-LG5"/>
-                            <constraint firstItem="LOy-6r-Y1P" firstAttribute="top" secondItem="Vt4-Jd-gVX" secondAttribute="bottom" id="pfv-vW-idE"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Calendário Acadêmico" image="calendar" id="FaV-aU-ebd"/>
                     <connections>
+                        <outlet property="noInternetView" destination="SFT-7O-oZZ" id="L08-5b-Rya"/>
                         <outlet property="tableView" destination="Vt4-Jd-gVX" id="UUG-03-miO"/>
                     </connections>
                 </viewController>

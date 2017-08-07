@@ -11,6 +11,7 @@ import UIKit
 class CalendarViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     @IBOutlet var tableView: UITableView!
     
+    @IBOutlet var noInternetView: UIView!
     var months:Array<Any>!
     
     override func viewDidLoad() {
@@ -24,6 +25,7 @@ class CalendarViewController: UIViewController, UITableViewDataSource, UITableVi
     
     override func viewDidAppear(_ animated: Bool) {
         tableView.reloadData()
+        DispatchQueue.main.async(execute: { self.tableView.reloadData() })
     }
 
     override func didReceiveMemoryWarning() {
@@ -76,6 +78,9 @@ class CalendarViewController: UIViewController, UITableViewDataSource, UITableVi
         }
     }
 
+    @IBAction func refreshConnection(_ sender: Any) {
+        getCalendarJSON()
+    }
     
     func getCalendarJSON() {
         let url = URL(string: "https://raw.githubusercontent.com/raphaelzin/RU-UECE-Calendar/master/calendar-data.json")
@@ -83,15 +88,17 @@ class CalendarViewController: UIViewController, UITableViewDataSource, UITableVi
         let task = URLSession.shared.dataTask(with: url!) { data, response, error in
             guard error == nil else{
                 print(error!)
+                self.tableView.isHidden = true
                 return
             }
             guard let data = data else{
                 print("Data is empty")
                 return
             }
+            self.tableView.isHidden = false
             let dic = (try! JSONSerialization.jsonObject(with: (String(data: data, encoding: .utf8)?.data(using: .utf8))!, options: []) as! NSDictionary)
             self.months = dic.value(forKey: "array") as! Array<Any>
-            self.tableView.reloadData()
+            DispatchQueue.main.async(execute: { self.tableView.reloadData() })
         }
         task.resume()
     }
