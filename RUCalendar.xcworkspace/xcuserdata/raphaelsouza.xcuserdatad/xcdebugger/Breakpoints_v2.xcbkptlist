@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RUCalendar/AppDelegate.swift"
-            timestampString = "523751847.408218"
+            timestampString = "526152925.937886"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
             landmarkName = "application(_:didFinishLaunchingWithOptions:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -191,6 +191,131 @@
                   startingLineNumber = "93"
                   endingLineNumber = "93"
                   offsetFromSymbolStart = "2476">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RUCalendar/ReminderViewController.swift"
+            timestampString = "526160115.09644"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RUCalendar/ReminderDAO.swift"
+            timestampString = "526154560.277968"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "getReminder(id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RUCalendar/ReminderViewController.swift"
+            timestampString = "526154189.123388"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ReminderViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RUCalendar.ReminderViewController.__deallocating_deinit"
+                  moduleName = "RUCalendar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/raphaelsouza/Dropbox/RandomDev/iOS/RUCalendar/RUCalendar/ReminderViewController.swift"
+                  timestampString = "526154191.418538"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RUCalendar.ReminderViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; RUCalendar.ReminderViewController"
+                  moduleName = "RUCalendar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/raphaelsouza/Dropbox/RandomDev/iOS/RUCalendar/RUCalendar/ReminderViewController.swift"
+                  timestampString = "526154191.421227"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RUCalendar.ReminderViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; RUCalendar.ReminderViewController"
+                  moduleName = "RUCalendar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/raphaelsouza/Dropbox/RandomDev/iOS/RUCalendar/RUCalendar/ReminderViewController.swift"
+                  timestampString = "526154191.423943"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RUCalendar.ReminderViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;RUCalendar.ReminderViewController&gt;"
+                  moduleName = "RUCalendar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/raphaelsouza/Dropbox/RandomDev/iOS/RUCalendar/RUCalendar/ReminderViewController.swift"
+                  timestampString = "526154191.426065"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RUCalendar.ReminderViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;RUCalendar.ReminderViewController&gt;"
+                  moduleName = "RUCalendar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/raphaelsouza/Dropbox/RandomDev/iOS/RUCalendar/RUCalendar/ReminderViewController.swift"
+                  timestampString = "526154191.428177"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "28">
                </Location>
             </Locations>
          </BreakpointContent>

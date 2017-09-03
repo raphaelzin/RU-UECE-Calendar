@@ -5,6 +5,7 @@ target 'RUCalendar' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
   pod 'SwiftSoup', '~> 1.4'
+  pod 'RealmSwift'
 
   # Pods for RUCalendar
 

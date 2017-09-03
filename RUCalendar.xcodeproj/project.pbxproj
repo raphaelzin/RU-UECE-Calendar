@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C137AF61F5C38ED00DD03BD /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C137AF51F5C38ED00DD03BD /* Reminder.swift */; };
 		1C1518991F2C00DB00B74C82 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1518981F2C00DB00B74C82 /* InfoViewController.swift */; };
 		1C15189D1F2C019300B74C82 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C15189C1F2C019300B74C82 /* Utils.swift */; };
 		1C7CE4321F26C88600B94AFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7CE4311F26C88600B94AFD /* AppDelegate.swift */; };
@@ -14,6 +15,11 @@
 		1C7CE4371F26C88600B94AFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C7CE4351F26C88600B94AFD /* Main.storyboard */; };
 		1C7CE4391F26C88600B94AFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C7CE4381F26C88600B94AFD /* Assets.xcassets */; };
 		1C7CE43C1F26C88600B94AFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C7CE43A1F26C88600B94AFD /* LaunchScreen.storyboard */; };
+		1CCAFB691F5C3D9B00B52690 /* ReminderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCAFB681F5C3D9B00B52690 /* ReminderTableViewCell.swift */; };
+		1CCAFB6B1F5C3DB300B52690 /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCAFB6A1F5C3DB300B52690 /* ReminderViewController.swift */; };
+		1CCAFB6D1F5C3E7400B52690 /* ReminderDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCAFB6C1F5C3E7400B52690 /* ReminderDAO.swift */; };
+		1CCAFB6F1F5C866400B52690 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCAFB6E1F5C866400B52690 /* DetailsViewController.swift */; };
+		1CCAFB711F5C894B00B52690 /* DetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCAFB701F5C894B00B52690 /* DetailsTableViewCell.swift */; };
 		1CCD8C0A1F296C7000666E2B /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCD8C091F296C7000666E2B /* Parser.swift */; };
 		1CF8E18B1F366F4400678600 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF8E18A1F366F4400678600 /* CalendarViewController.swift */; };
 		1CF8E18D1F37B60900678600 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF8E18C1F37B60900678600 /* EventTableViewCell.swift */; };
@@ -21,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C137AF51F5C38ED00DD03BD /* Reminder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		1C1518981F2C00DB00B74C82 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		1C15189C1F2C019300B74C82 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		1C7CE42E1F26C88600B94AFD /* RUCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RUCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,6 +37,11 @@
 		1C7CE4381F26C88600B94AFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C7CE43B1F26C88600B94AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C7CE43D1F26C88600B94AFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CCAFB681F5C3D9B00B52690 /* ReminderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderTableViewCell.swift; sourceTree = "<group>"; };
+		1CCAFB6A1F5C3DB300B52690 /* ReminderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
+		1CCAFB6C1F5C3E7400B52690 /* ReminderDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderDAO.swift; sourceTree = "<group>"; };
+		1CCAFB6E1F5C866400B52690 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		1CCAFB701F5C894B00B52690 /* DetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTableViewCell.swift; sourceTree = "<group>"; };
 		1CCD8C091F296C7000666E2B /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 		1CF8E18A1F366F4400678600 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		1CF8E18C1F37B60900678600 /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
@@ -72,9 +84,15 @@
 			isa = PBXGroup;
 			children = (
 				1C7CE4311F26C88600B94AFD /* AppDelegate.swift */,
+				1C137AF51F5C38ED00DD03BD /* Reminder.swift */,
 				1C7CE4331F26C88600B94AFD /* ViewController.swift */,
+				1CCAFB681F5C3D9B00B52690 /* ReminderTableViewCell.swift */,
 				1C1518981F2C00DB00B74C82 /* InfoViewController.swift */,
+				1CCAFB6A1F5C3DB300B52690 /* ReminderViewController.swift */,
+				1CCAFB6C1F5C3E7400B52690 /* ReminderDAO.swift */,
 				1CCD8C091F296C7000666E2B /* Parser.swift */,
+				1CCAFB6E1F5C866400B52690 /* DetailsViewController.swift */,
+				1CCAFB701F5C894B00B52690 /* DetailsTableViewCell.swift */,
 				1C15189C1F2C019300B74C82 /* Utils.swift */,
 				1C7CE4351F26C88600B94AFD /* Main.storyboard */,
 				1CF8E18C1F37B60900678600 /* EventTableViewCell.swift */,
@@ -181,13 +199,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RUCalendar-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C18F83FCE87FC1AE9E5F4CFF /* [CP] Embed Pods Frameworks */ = {
@@ -196,9 +217,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RUCalendar/Pods-RUCalendar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -227,13 +255,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CCAFB6D1F5C3E7400B52690 /* ReminderDAO.swift in Sources */,
 				1CF8E18B1F366F4400678600 /* CalendarViewController.swift in Sources */,
+				1CCAFB711F5C894B00B52690 /* DetailsTableViewCell.swift in Sources */,
 				1C15189D1F2C019300B74C82 /* Utils.swift in Sources */,
+				1CCAFB6B1F5C3DB300B52690 /* ReminderViewController.swift in Sources */,
 				1C7CE4341F26C88600B94AFD /* ViewController.swift in Sources */,
 				1C7CE4321F26C88600B94AFD /* AppDelegate.swift in Sources */,
+				1CCAFB691F5C3D9B00B52690 /* ReminderTableViewCell.swift in Sources */,
 				1CF8E18D1F37B60900678600 /* EventTableViewCell.swift in Sources */,
 				1C1518991F2C00DB00B74C82 /* InfoViewController.swift in Sources */,
 				1CCD8C0A1F296C7000666E2B /* Parser.swift in Sources */,
+				1C137AF61F5C38ED00DD03BD /* Reminder.swift in Sources */,
+				1CCAFB6F1F5C866400B52690 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +400,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.raphael.RUCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -381,6 +416,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.raphael.RUCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
